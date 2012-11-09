@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Page Title</title>
+	<script src="gallery_data.js"></script>
+	
+	<script>
+		
+		function picGet() {
+			for (var i=0; i < data.length; i++) {
+				document.write(data[i].thumb + "<br>");
+			}		
+		}
+		
+		window.onload  = function() {
+			picGet();
+		}
+		
+	</script>
+	
+</head>
+<body>
+	<div id="image">		
+	</div>
+</body>
+</html>
